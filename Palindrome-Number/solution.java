@@ -5,6 +5,8 @@ class Solution {
         
         if(number < 0){
             return false;
+        }else if(x/10 == x){
+            return true;
         }
 
 
